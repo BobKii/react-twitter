@@ -7,7 +7,7 @@ class Post {
 
     this.username = username;
     this.text = text;
-    this.date = new Date.getTime();
+    this.date = new Date().getTime();
 
     this.reply = [];
   }
@@ -17,6 +17,8 @@ class Post {
 
     if (post) {
       post.reply.push(newPost);
+
+      console.log(post);
     } else {
       this.#list.push(newPost);
     }
