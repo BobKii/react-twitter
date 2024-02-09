@@ -35,6 +35,6 @@ class Post {
   static getList = () => this.#list;
 }
 
-module.export = {
+module.exports = {
   Post,
 };

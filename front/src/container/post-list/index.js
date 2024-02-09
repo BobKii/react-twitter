@@ -3,9 +3,9 @@ import { useState, Fragment } from "react";
 import Title from "../../component/title";
 import Grid from "../../component/grid";
 import Box from "../../component/box";
-import PostItem from "../../component/post-content";
 
 import PostCreate from "../post-create";
+import PostItem from "../../component/post-content";
 
 import { Alert, Loader, LOAD_STATUS, Skeleton } from "../../component/load";
 
